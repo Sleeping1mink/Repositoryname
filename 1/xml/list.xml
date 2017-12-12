@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tabl.xsl"?>
+<tabl>
+
+<MTV>
+  <NAME>Фамилия
+  </NAME>
+  <RUSSIAN>Тадра
+  </RUSSIAN>
+</MTV>
+  <MTV>
+    <NAME>
+      Имя
+    </NAME>
+    <RUSSIAN>
+      Александр
+    </RUSSIAN>
+  </MTV>
+  <MTV>
+    <NAME>
+      Отчество
+    </NAME>
+    <RUSSIAN>
+      Николаевич
+    </RUSSIAN>
+  </MTV>
+  <MTV>
+    <NAME>
+      Факультет
+    </NAME>
+    <RUSSIAN>
+      ФИТ
+    </RUSSIAN>
+  </MTV>
+  <MTV>
+    <NAME>
+      Специальность
+    </NAME>
+    <RUSSIAN>
+      ПОИБМС
+    </RUSSIAN>
+  </MTV>
+  <MTV>
+    <NAME>
+      Курс
+    </NAME>
+    <RUSSIAN>
+      2
+    </RUSSIAN>
+  </MTV>
+  <MTV>
+    <NAME>
+      Группа
+    </NAME>
+    <RUSSIAN>
+      7
+    </RUSSIAN>
+  </MTV>
+</tabl>

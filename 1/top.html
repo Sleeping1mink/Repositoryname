@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/StyleSheet2.css" />
+    <meta charset="utf-8" />
+    <title>Gameworld</title>
+    <link rel="stylesheet" type="text/css" href="HTMLPage2.css" media="all" />
+    <script type="text/javascript">
+            function clock() {
+                var d = new Date();
+                var day = d.getDate();
+                var hrs = d.getHours();
+                var min = d.getMinutes();
+                var sec = d.getSeconds();
+
+                var mnt = new Array("января", "февраля", "марта", "апреля", "мая",
+                    "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
+
+                if (day <= 9) day = "0" + day;
+                if (hrs <= 9) hrs = "0" + hrs;
+                if (min <= 9) min = "0" + min;
+                if (sec <= 9) sec = "0" + sec;
+
+                $("#time").html("Сейчас: " + hrs + ":" + min + ":" + sec + "&nbsp;&nbsp;&nbsp;" +
+                    day + "-го " + mnt[d.getMonth()] + " " + d.getFullYear() + " г.");
+            }
+            setInterval("clock()", 1000);
+    </script>
+</head>
+<body style="background-color:RGB(68,68,68);" class="container-fluid">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <div class="container" style="position:fixed;z-index:10;width:98%">
+        <div class="row">
+
+
+            <div class="navbar navbar-inverse col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100% ">
+                <div class="navbar-header">
+                    <a href="index.html">
+                        <img src="images/Logo.png" class="col-lg-2 col-md-2 col-sm-2 hidden-xs" style="width:140px;height:80px;float:left;" />
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsivemenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="responsivemenu">
+                    <ul class="nav navbar-nav menu">
+                        <li>
+                            <a href=index.html>Главная</a>
+                        </li>
+                        <li>
+                            <a href=news.html>Новости</a>
+                        </li>
+                        <li>
+                            <a href=top.html>Топ-20 лучших игр</a>
+                        </li>
+                        <li>
+                            <a href=soundtracks.html>Саундтреки</a>
+                        </li>
+                        <li>
+                            <a href="xml/list.xml">Обо мне</a>
+                        </li>
+                    </ul>
+                    <span style="font-size:20px;color:white" id="time">Дата и время</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 hidden-xs">
+                <p style="font-family: Helvetica, sans-serif;font-weight:700;font-size:100px;color:white;text-shadow:10px 5px 3px black;text-align:center;margin-top:100px">TOП-20</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="margin-top:100px " class="container-fluid">
+        <div class="row" style="width:100%;height:100%">
+            
+            <div style="" class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1" ;>
+                <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+                    <div class=" col-lg-12 col-sm-12 col-xs-12 col-md-12">
+                        <ol type="1" class="top">
+                            Топ-20 игр на PC
+                            <li>Playerunknown's
+                            Battlegrounds</li>
+                            <li>DOTA 2</li>
+                            <li>Counter-Strike: Global Offensive</li>
+                            <li>Team Fortress 2</li>
+                            <li>Grand Theft Auto V</li>
+                            <li>ARK: Survival Evolved</li>
+                            <li>Rocket League</li>
+                            <li>
+                                Divinity: Original Sin 2
+                            </li>
+                            <li>
+                                Warframe
+                            </li>
+                            <li>
+                                Tom Clancy's Rainbow Six: Siege
+                            </li>
+                            <li>
+                                Rust
+                            </li>
+                            <li>
+                                Garry's Mod
+                            </li>
+                            <li>
+                                Total War: Warhammer II
+                            </li>
+                            <li>
+                                H1Z1
+                            </li>
+                            <li>
+                                Football Manager 2017
+                            </li>
+                            <li>
+                                Paladins
+                            </li>
+                            <li>
+                                Sid Meier's Civilization V
+                            </li>
+                            <li>
+                                ArmA 3
+                            </li>
+                            <li>
+                                Unturned
+                            </li>
+                            <li>
+                                Fallout 4
+                            </li>
+                            <li>
+                                Path of Exile
+                            </li>
+                            <li>
+                                Terraria
+                            </li>
+                            <li>
+                                Euro Truck Simulator 2
+                            </li>
+                            <li>
+                                Payday 2
+                            </li>
+                            <li>
+                                The Elder Scrolls V: Skyrim
+                            </li>
+                            <li>
+                                Sid Meier's Civilization VI
+                            </li>
+                            <li>
+                                Dead by Daylight
+                            </li>
+                            <li>
+                                Stellaris
+                            </li>
+                            <li>
+                                Counter-Strike: Source
+                            </li>
+                            <li>
+                                War Thunder
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="height:50px;margin-top:10px; background:rgba(0, 0, 0, 0.3);text-align:center; padding-top:20px;color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                Тадра Александр Николаевич
+                ФИТ
+                ПОИБМС - 7
+            </div>
+        </div>
+    </div>
+</body>
+</html>
